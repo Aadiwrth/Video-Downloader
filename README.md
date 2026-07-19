@@ -1,5 +1,4 @@
-# Video Downloader 📥
-
+# Video Downloader
 [![GitHub Release](https://img.shields.io/github/v/release/Aadiwrth/Video-Downloader?color=blue&logo=github)](https://github.com/Aadiwrth/Video-Downloader/releases)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Flet GUI](https://img.shields.io/badge/GUI-Flet%20%2F%20Flutter-purple?logo=flutter)](https://flet.dev/)
@@ -7,11 +6,11 @@
 
 A clean, modern, and high-performance desktop application for downloading videos and audio from hundreds of popular platforms (such as YouTube, Twitter, and others). Developed by **aadiwrth**, this app features a state-of-the-art UI, an IDM-style browser extension, TV compatibility options, and extreme download speed engines.
 
-🌐 **GitHub Repository:** [https://github.com/Aadiwrth/Video-Downloader](https://github.com/Aadiwrth/Video-Downloader)
+ **GitHub Repository:** [https://github.com/Aadiwrth/Video-Downloader](https://github.com/Aadiwrth/Video-Downloader)
 
 ---
 
-## ✨ Features
+## Features
 
 - **IDM-Style Browser Extension:** Inspect video pages directly inside Chrome/Firefox/Edge. The extension extracts and converts active cookies to Netscape format, pulls stream quality resolutions, and sends downloads directly to the desktop application.
 - **TV Compatibility Export:** Converts video streams specifically for non-smart or older TVs by forcing the **H.264 (AVC1)** video codec and **AAC** audio codec merged into standard `.mp4` containers. It also includes warnings if you try to export higher resolutions (>1080p) that older TV processors cannot play.
@@ -24,7 +23,7 @@ A clean, modern, and high-performance desktop application for downloading videos
 
 ---
 
-## 🚀 How It Works (Extension & App Pipeline)
+## How It Works (Extension & App Pipeline)
 
 ```mermaid
 sequenceDiagram
@@ -50,7 +49,7 @@ sequenceDiagram
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Option 1: Standalone Portable Executable (Recommended)
 You do not need to install Python, Node.js, or any packages manually.
@@ -82,7 +81,7 @@ You do not need to install Python, Node.js, or any packages manually.
 
 ---
 
-## 🔌 Installing the Browser Extension Helper
+## Installing the Browser Extension Helper
 
 The custom browser extension grabs session cookies automatically so that age-restricted, private, or cookies-dependent links download successfully.
 
@@ -95,7 +94,7 @@ The custom browser extension grabs session cookies automatically so that age-res
 
 ---
 
-## 🛠️ Standalone Compilation (.exe)
+## Standalone Compilation (.exe)
 
 To bundle the Python codebase into a single, clean `.exe` binary:
 1. Ensure `pyinstaller` is installed:
@@ -110,5 +109,5 @@ To bundle the Python codebase into a single, clean `.exe` binary:
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
