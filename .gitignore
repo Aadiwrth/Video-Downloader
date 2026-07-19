@@ -1,0 +1,5 @@
+temp_cookies.txt
+*.bak
+*.mp4
+build
+dist

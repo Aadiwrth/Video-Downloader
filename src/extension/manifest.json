@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Video Downloader Helper",
+  "version": "1.1",
+  "description": "Send video links with session cookies directly to Video Downloader",
+  "author": "aadiwrth",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "cookies"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8283/*",
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
